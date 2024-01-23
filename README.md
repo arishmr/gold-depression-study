@@ -5,12 +5,12 @@ The associated dataset for this study is available publicly at https://doi.org/1
 For any questions about the code or dataset, please contact the lead investigator: Arish Mudra Rakshasa-Loots (arish.mudrarakshasa@ed.ac.uk).
 
 
-############# SCRIPTS
+## SCRIPTS
 
 Data analysis is carried out using the following scripts:
 
 ## Section 1: Preamble
-## Always run these when opening the project
+Always run these when opening the project
 1-packages					Load (and install, if not already installed) the required packages for analysis
 2-load-data					Load the dataset (which can be downloaded from the DOI provided above) and clean up blood biomarker data
 
@@ -43,15 +43,13 @@ Data analysis is carried out using the following scripts:
 22-virally-suppressed-only		Run SEM while excluding n = 4 participants with HIV viral load >200 for MRS and blood biomarkers
 
 
-
-############# NOTES
+## NOTES
 
 - My code is set up so that the 1-packages and 2-load-data scripts need to be run once each time when the project is opened, but not necessarily again.
 - I export figures and results files to a /Figures and /Results sub-folder within my working directory, respectively. 
 - While the scripts are relatively independent of each other, I generally run scripts in a particular section (descriptive stats, MRI analysis, blood biomarker analysis) in the order in which they are named. The 6-mri-data script needs to be run before running any of the other MRI analysis scripts. The 11-mri-sem-plots and 17-biomarker-sem-plots rely on results files exported by the preceding SEM scripts.
 
-
-############# VARIABLES
+## VARIABLES
 
 PID - participant ID, uniform across all data files
 HIV.status - participant's HIV status (participant with HIV or without HIV)
