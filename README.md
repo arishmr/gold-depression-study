@@ -11,36 +11,36 @@ Data analysis is carried out using the following scripts:
 
 ## Section 1: Preamble
 Always run these when opening the project
-1-packages					Load (and install, if not already installed) the required packages for analysis
-2-load-data					Load the dataset (which can be downloaded from the DOI provided above) and clean up blood biomarker data
+- 1-packages					Load (and install, if not already installed) the required packages for analysis
+- 2-load-data					Load the dataset (which can be downloaded from the DOI provided above) and clean up blood biomarker data
 
 ## Section 2: Descriptive Statistics
-3-demos-by-hiv				Summarise participant characteristics overall and by HIV status or language of PHQ-9 administration
-4-phq9-descr				Summarise total PHQ-9 scores for participants overall and by HIV status or language of administration
-5-phq9-plot					Plot PHQ-9 total or item-level scores by HIV status or language of administration, and plot correlations between PHQ-9 item-level scores
+- 3-demos-by-hiv				Summarise participant characteristics overall and by HIV status or language of PHQ-9 administration
+- 4-phq9-descr				Summarise total PHQ-9 scores for participants overall and by HIV status or language of administration
+- 5-phq9-plot					Plot PHQ-9 total or item-level scores by HIV status or language of administration, and plot correlations between PHQ-9 item-level scores
 
 ## Section 3: MRS Biomarkers
-6-mri-data					Set up MRS data analysis and calculate time difference between PHQ-9 and MRS
-7-mri-demos					Summarise participant characteristics for all participants with MRS data available
-8-mri-plots-single			Produce a single plot of both MRS biomarkers across two referencing protocols and three brain regions by HIV status and by PHQ-9 score
-9-mri-sem					Run SEM to calculate standardised effect estimates for each path in the mediation analysis for MRS biomarkers
-10-mri-sem-adj				Run SEM to calculate standardised effect estimates for each path in the mediation analysis adjusted for age, gender, and time between PHQ-9 and MRS
-11-mri-sem-plots				Using results from [9] and [10], create forest plots for path estimates with CIs
-12-mri-multiple-mediation		Run SEM with all MRS biomarkers at once (separately for both referencing protocols)
-13-mri-sem-MLM				Run SEM with MLM estimator for MRS biomarkers
+- 6-mri-data					Set up MRS data analysis and calculate time difference between PHQ-9 and MRS
+- 7-mri-demos					Summarise participant characteristics for all participants with MRS data available
+- 8-mri-plots-single			Produce a single plot of both MRS biomarkers across two referencing protocols and three brain regions by HIV status and by PHQ-9 score
+- 9-mri-sem					Run SEM to calculate standardised effect estimates for each path in the mediation analysis for MRS biomarkers
+- 10-mri-sem-adj				Run SEM to calculate standardised effect estimates for each path in the mediation analysis adjusted for age, gender, and time between PHQ-9 and MRS
+- 11-mri-sem-plots				Using results from [9] and [10], create forest plots for path estimates with CIs
+- 12-mri-multiple-mediation		Run SEM with all MRS biomarkers at once (separately for both referencing protocols)
+- 13-mri-sem-MLM				Run SEM with MLM estimator for MRS biomarkers
 
 ## Section 4: Blood Biomarkers
-14-biomarker-plots			Produce a single plot of all blood biomarkers by HIV status and by PHQ-9 score
-15-biomarker-sem				Run SEM to calculate standardised effect estimates for each path in the mediation analysis for blood biomarkers
-16-biomarker-sem-adj			Run SEM to calculate standardised effect estimates for each path in the mediation analysis adjusted for age and gender
-17-biomarker-sem-plots			Using results from [15] and [16], create forest plots for path estimates with CIs
-18-blood-multiple-mediation		Run SEM with all blood biomarkers at once
-19-biomarker-sem-MLM			Run SEM with MLM estimator for blood biomarkers
+- 14-biomarker-plots			Produce a single plot of all blood biomarkers by HIV status and by PHQ-9 score
+- 15-biomarker-sem				Run SEM to calculate standardised effect estimates for each path in the mediation analysis for blood biomarkers
+- 16-biomarker-sem-adj			Run SEM to calculate standardised effect estimates for each path in the mediation analysis adjusted for age and gender
+- 17-biomarker-sem-plots			Using results from [15] and [16], create forest plots for path estimates with CIs
+- 18-blood-multiple-mediation		Run SEM with all blood biomarkers at once
+- 19-biomarker-sem-MLM			Run SEM with MLM estimator for blood biomarkers
 
 ## Section 5: Exploratory Analyses
-20-corrplots				Produce correlation matrices for blood biomarkers, MRS biomarkers, and all biomarkers
-21-gender-interactions			Calculate interactions of gender with mediation model
-22-virally-suppressed-only		Run SEM while excluding n = 4 participants with HIV viral load >200 for MRS and blood biomarkers
+- 20-corrplots				Produce correlation matrices for blood biomarkers, MRS biomarkers, and all biomarkers
+- 21-gender-interactions			Calculate interactions of gender with mediation model
+- 22-virally-suppressed-only		Run SEM while excluding n = 4 participants with HIV viral load >200 for MRS and blood biomarkers
 
 
 ## NOTES
